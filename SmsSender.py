@@ -12,6 +12,7 @@ def send_sms(location):
 
 
 
+
 def get_weather(location):
     apiKey = 'a1db274fcb4e9a13a14e52e569c6fd1a'
     openWeatherClient = pyowm.OWM(apiKey)
